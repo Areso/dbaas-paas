@@ -15,5 +15,18 @@ body:
   
 /vm_delete  
 body:  
-  "name":vm_name
-
+  "name":vm_name  
+  
+/pg_install  
+body:  
+  "name":vm_name  
+  "dbname":dbname  
+  "username":username  
+  "password":password  
+  
+return asnwer:  
+  "task_id":int  
+  
+/get_pg_details:  
+body:  
+  "task_id":int
