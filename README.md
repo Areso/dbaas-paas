@@ -31,6 +31,8 @@ return asnwer:
 body:  
   "task_id":int
 
-##TODO list:
-add MySQL  
-add backup  
+## TODO list:
+add MySQL install endpoint    
+add backup endpoint  
+add `/check_db_size` endpoint  
+add `/check_all_db_sizes` endpoint  
