@@ -1,7 +1,9 @@
 # DBAAS and PAAS
-It's a service description, where I announce and describe endpoints  
-for https://github.com/Areso/Webinar-ansible  
-  
+It's a service description, where I announce and describe the service endpoints  
+The service serves is a middleware for running playbooks from  
+https://github.com/Areso/Webinar-ansible  
+and others playbook repos  
+
 ## Endpoints of the service
 `/vm_create`  
 body:  
